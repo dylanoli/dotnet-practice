@@ -38,3 +38,16 @@ D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Npgsql.dll
 D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Evolve.dll
 D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Serilog.dll
+D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Serilog.AspNetCore.dll
+D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Serilog.Extensions.Hosting.dll
+D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.dll
+D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Serilog.Formatting.Compact.dll
+D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Serilog.Settings.Configuration.dll
+D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Serilog.Sinks.Debug.dll
+D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
