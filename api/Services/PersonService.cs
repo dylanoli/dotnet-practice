@@ -1,49 +1,35 @@
 using System.Collections.Generic;
 using api.Models;
+using api.Repositories;
 
 namespace api.Services
 {
     public class PersonService
     {
+        private PersonRepository _personRepository = new PersonRepository();
         public Person Create(Person person)
         {
-            return person;
+            return _personRepository.Create(person);
         }
 
         public void Delete(long personId)
         {
-
+            _personRepository.Delete(personId);
         }
 
         public List<Person> FindAll()
         {
-            List<Person> personList = new List<Person>();
-            for (int i = 0; i < 10; i++)
-            {
-                personList.Add(MockPerson(i));
-            }
-            return personList;
+            return _personRepository.FindAll();
         }
 
         public Person FindById(long personId)
         {
-            return MockPerson(personId);
+            return _personRepository.FindById(personId);
         }
 
         public Person Update(Person person)
         {
-            return person;
-        }
-
-        private Person MockPerson(long personId)
-        {
-            return new Person
-            {
-                Id = personId,
-                Name = "Person " + personId,
-                Age = (int)(30 - personId),
-                Gender = personId % 2 == 0 ? Person.SGender.MALE : Person.SGender.FEMALE
-            };
+            return _personRepository.Update(person);
         }
     }
 }
