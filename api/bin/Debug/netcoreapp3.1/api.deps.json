@@ -24,7 +24,9 @@
     ".NETCoreApp,Version=v3.1": {
       "api/1.0.0": {
         "dependencies": {
+          "Evolve": "3.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.7",
+          "Serilog": "2.10.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -303,6 +305,17 @@
           "api.dll": {}
         }
       },
+      "Evolve/3.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Evolve.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Evolve.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore/5.0.7": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "5.0.7",
@@ -506,6 +519,17 @@
         },
         "compile": {
           "lib/netstandard2.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+        }
+      },
+      "Serilog/2.10.0": {
+        "runtime": {
+          "lib/netstandard2.1/Serilog.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.10.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Serilog.dll": {}
         }
       },
       "System.Collections.Immutable/5.0.0": {
@@ -2170,6 +2194,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Evolve/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iqJGswLEbL3/mzVN/Mt2JtY8t2T5n3p/qQCiCj/gb2tAtu8fvk4457cOHe9TEv++KZ4walQkA5wLQg8iacMSbw==",
+      "path": "evolve/3.0.0",
+      "hashPath": "evolve.3.0.0.nupkg.sha512"
+    },
     "Microsoft.EntityFrameworkCore/5.0.7": {
       "type": "package",
       "serviceable": true,
@@ -2274,6 +2305,13 @@
       "sha512": "sha512-RxFmJ0I4uppEAyR7b+xCfj4ZilUoGkKD4otUjiu+O3hv+vG6LUFOfJcB1ms5kOWTIvLEQHow9e+0zH7JWWV0ig==",
       "path": "npgsql.entityframeworkcore.postgresql/5.0.7",
       "hashPath": "npgsql.entityframeworkcore.postgresql.5.0.7.nupkg.sha512"
+    },
+    "Serilog/2.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+QX0hmf37a0/OZLxM3wL7V6/ADvC1XihXN4Kq/p6d8lCPfgkRdiuhbWlMaFjR9Av0dy5F0+MBeDmDdRZN/YwQA==",
+      "path": "serilog/2.10.0",
+      "hashPath": "serilog.2.10.0.nupkg.sha512"
     },
     "System.Collections.Immutable/5.0.0": {
       "type": "package",

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xn0hcdkfJYsjv39l/2vVLP2ZGOi5SKs8ke/VwFQUnZfWVX/wUbrjsgwlz9Vq96oK7qYB3bOLSSPsetnhj4fcBA==",
+  "dgSpecHash": "aCPvz+p88toeSeOoxAL3ISfENZMvu9wqPMH9ZEAHt7sR9l1AU+cmM5C/v8SydfbhMs5ll1XydroA3qNyxRPUfQ==",
   "success": true,
   "projectFilePath": "D:\\Git\\dotnet-practice\\api\\api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dylan\\.nuget\\packages\\evolve\\3.0.0\\evolve.3.0.0.nupkg.sha512",
     "C:\\Users\\dylan\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.7\\microsoft.entityframeworkcore.5.0.7.nupkg.sha512",
     "C:\\Users\\dylan\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.7\\microsoft.entityframeworkcore.abstractions.5.0.7.nupkg.sha512",
     "C:\\Users\\dylan\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.7\\microsoft.entityframeworkcore.analyzers.5.0.7.nupkg.sha512",
@@ -19,6 +20,7 @@
     "C:\\Users\\dylan\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\dylan\\.nuget\\packages\\npgsql\\5.0.7\\npgsql.5.0.7.nupkg.sha512",
     "C:\\Users\\dylan\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\5.0.7\\npgsql.entityframeworkcore.postgresql.5.0.7.nupkg.sha512",
+    "C:\\Users\\dylan\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
     "C:\\Users\\dylan\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\dylan\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\dylan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",

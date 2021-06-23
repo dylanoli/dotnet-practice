@@ -36,3 +36,5 @@ D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore
 D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Npgsql.dll
 D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Evolve.dll
+D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Serilog.dll

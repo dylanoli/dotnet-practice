@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Evolve/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Evolve.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Evolve.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore/5.0.7": {
         "type": "package",
         "dependencies": {
@@ -187,6 +196,15 @@
           "lib/netstandard2.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
         }
       },
+      "Serilog/2.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Serilog.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Serilog.dll": {}
+        }
+      },
       "System.Collections.Immutable/5.0.0": {
         "type": "package",
         "compile": {
@@ -226,6 +244,19 @@
     }
   },
   "libraries": {
+    "Evolve/3.0.0": {
+      "sha512": "iqJGswLEbL3/mzVN/Mt2JtY8t2T5n3p/qQCiCj/gb2tAtu8fvk4457cOHe9TEv++KZ4walQkA5wLQg8iacMSbw==",
+      "type": "package",
+      "path": "evolve/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "evolve.3.0.0.nupkg.sha512",
+        "evolve.nuspec",
+        "lib/netstandard2.0/Evolve.dll",
+        "lib/netstandard2.0/Evolve.pdb"
+      ]
+    },
     "Microsoft.EntityFrameworkCore/5.0.7": {
       "sha512": "VAvmiQPdw0PUh3X7k9k7haVnCfQuDgyki9rq5XVk0gXJFeh+bwqPzPrY71A08O5TjnIeK9lEggXDnMuhQXUUww==",
       "type": "package",
@@ -505,6 +536,30 @@
         "postgresql.png"
       ]
     },
+    "Serilog/2.10.0": {
+      "sha512": "+QX0hmf37a0/OZLxM3wL7V6/ADvC1XihXN4Kq/p6d8lCPfgkRdiuhbWlMaFjR9Av0dy5F0+MBeDmDdRZN/YwQA==",
+      "type": "package",
+      "path": "serilog/2.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net45/Serilog.dll",
+        "lib/net45/Serilog.xml",
+        "lib/net46/Serilog.dll",
+        "lib/net46/Serilog.xml",
+        "lib/netstandard1.0/Serilog.dll",
+        "lib/netstandard1.0/Serilog.xml",
+        "lib/netstandard1.3/Serilog.dll",
+        "lib/netstandard1.3/Serilog.xml",
+        "lib/netstandard2.0/Serilog.dll",
+        "lib/netstandard2.0/Serilog.xml",
+        "lib/netstandard2.1/Serilog.dll",
+        "lib/netstandard2.1/Serilog.xml",
+        "serilog.2.10.0.nupkg.sha512",
+        "serilog.nuspec"
+      ]
+    },
     "System.Collections.Immutable/5.0.0": {
       "sha512": "FXkLXiK0sVVewcso0imKQoOxjoPAj42R8HtjjbSjVPAzwDfzoyoznWxgA3c38LDbN9SJux1xXoXYAhz98j7r2g==",
       "type": "package",
@@ -677,7 +732,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 5.0.7"
+      "Evolve >= 3.0.0",
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 5.0.7",
+      "Serilog >= 2.10.0"
     ]
   },
   "packageFolders": {
@@ -715,9 +772,17 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Evolve": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[5.0.7, )"
+          },
+          "Serilog": {
+            "target": "Package",
+            "version": "[2.10.0, )"
           }
         },
         "imports": [
