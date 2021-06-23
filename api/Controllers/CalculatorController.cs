@@ -11,11 +11,6 @@ namespace api.Controllers
     [Route("[controller]")]
     public class CalculatorController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
         private readonly ILogger<CalculatorController> _logger;
 
         public CalculatorController(ILogger<CalculatorController> logger)
