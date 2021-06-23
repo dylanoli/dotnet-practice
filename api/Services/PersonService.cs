@@ -4,9 +4,13 @@ using api.Repositories;
 
 namespace api.Services
 {
-    public class PersonService
+    public class PersonService : IPersonService
     {
-        private PersonRepository _personRepository = new PersonRepository();
+        private PersonRepository _personRepository;
+        public PersonService(PersonRepository personRepository)
+        {
+            _personRepository = personRepository;
+        }
         public Person Create(Person person)
         {
             return _personRepository.Create(person);

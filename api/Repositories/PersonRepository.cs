@@ -6,9 +6,10 @@ namespace api.Repositories
 {
     public class PersonRepository
     {
-        private SqlContext _context = new SqlContext();
-        public PersonRepository()
+        private SqlContext _context;
+        public PersonRepository(SqlContext context)
         {
+            _context = context;
         }
 
         public List<Person> FindAll()

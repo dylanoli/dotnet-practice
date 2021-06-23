@@ -9,12 +9,13 @@ namespace api.Controllers
     [Route("[controller]")]
     public class PersonController : ControllerBase
     {
-        private PersonService _personService = new PersonService();
+        private IPersonService _personService;
         private readonly ILogger<PersonController> _logger;
 
-        public PersonController(ILogger<PersonController> logger)
+        public PersonController(ILogger<PersonController> logger, IPersonService personService)
         {
             _logger = logger;
+            _personService = personService;
         }
 
         [HttpGet]

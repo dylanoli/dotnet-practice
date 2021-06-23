@@ -13,6 +13,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System.Data.SqlTypes;
 using Serilog;
+using api.Services;
+using api.Repositories;
 namespace api
 {
     public class Startup
@@ -41,6 +43,9 @@ namespace api
             {
                 MigrateDatabase(connection);
             }
+
+            services.AddScoped<IPersonService, PersonService>();
+            services.AddScoped<PersonRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
