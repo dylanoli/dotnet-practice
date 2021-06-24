@@ -37,6 +37,10 @@ namespace api
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddCors(options => options.AddDefaultPolicy(builder =>
+            {
+                builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()
+            }));
             services.AddControllers();
 
             var connection = Configuration["ConnectionStrings:api_dotnet"];
@@ -76,6 +80,8 @@ namespace api
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors();
 
             app.UseSwagger();
 
