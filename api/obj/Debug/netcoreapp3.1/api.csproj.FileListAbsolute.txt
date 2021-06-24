@@ -51,3 +51,8 @@ D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Serilog.Settings.Configuratio
 D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
 D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Serilog.Sinks.Debug.dll
 D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Git\dotnet-practice\api\obj\Debug\netcoreapp3.1\api.MvcApplicationPartsAssemblyInfo.cs
