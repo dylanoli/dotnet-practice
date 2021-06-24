@@ -29,7 +29,7 @@ namespace api.Repositories
             {
                 _context.Add(person);
                 _context.SaveChanges();
-                finalPerson = _context.Persons.LastOrDefault();
+                finalPerson = _context.Persons.OrderBy(o => o.Id).LastOrDefault();
             }
             catch (System.Exception)
             {

@@ -1,6 +1,6 @@
 CREATE TABLE public.person
 (
-    id bigint NOT NULL,
+    id bigserial NOT NULL,
     name character varying NOT NULL,
     age integer NOT NULL,
     gender character varying NOT NULL,

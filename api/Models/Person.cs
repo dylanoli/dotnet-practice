@@ -9,6 +9,7 @@ namespace api.Models
             public const string MALE = "male";
             public const string FEMALE = "female";
         }
+
         [Column("id")]
         public long Id { get; set; }
         [Column("name")]
