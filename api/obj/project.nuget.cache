@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "siVxyIKmpis1M1T3bA5a75fYpXssjYPyPkzPlNeSAUWaE25MScBBM1EPnnCnVz6BGAj3R4qt1IdaHZvbvjUM+g==",
-  "success": true,
+  "dgSpecHash": "oV0keJbNmQdGkwr9GecMpZcLx2TAAsfCq2PVBwdpCiUUq2RVcBf2PJKFd65VgP7hMTZlgkEft3yJb8vIMSe3vw==",
+  "success": false,
   "projectFilePath": "D:\\Git\\dotnet-practice\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dylan\\.nuget\\packages\\evolve\\3.0.0\\evolve.3.0.0.nupkg.sha512",
+    "C:\\Users\\dylan\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.7\\microsoft.aspnetcore.authentication.jwtbearer.5.0.7.nupkg.sha512",
     "C:\\Users\\dylan\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\dylan\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512",
     "C:\\Users\\dylan\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.7\\microsoft.entityframeworkcore.5.0.7.nupkg.sha512",
@@ -88,5 +89,15 @@
     "C:\\Users\\dylan\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
     "C:\\Users\\dylan\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "O pacote Microsoft.AspNetCore.Authentication.JwtBearer 5.0.7 não é compatível com netcoreapp3.1 (.NETCoreApp,Version=v3.1). O pacote Microsoft.AspNetCore.Authentication.JwtBearer 5.0.7 dá suporte a: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

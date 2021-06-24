@@ -39,7 +39,7 @@ namespace api
 
             services.AddCors(options => options.AddDefaultPolicy(builder =>
             {
-                builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()
+                builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
             }));
             services.AddControllers();
 
