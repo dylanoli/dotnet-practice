@@ -15,6 +15,7 @@ using System.Data.SqlTypes;
 using Serilog;
 using api.Services;
 using api.Repositories;
+using api.Repositories.Core;
 namespace api
 {
     public class Startup
@@ -48,7 +49,7 @@ namespace api
             services.AddScoped<PersonRepository>();
 
             services.AddScoped<IBookService, BookService>();
-            services.AddScoped<BookRepository>();
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

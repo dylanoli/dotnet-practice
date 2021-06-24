@@ -1,8 +1,9 @@
 using System.ComponentModel.DataAnnotations.Schema;
+using api.Models.Core;
 namespace api.Models
 {
     [Table("person")]
-    public class Person
+    public class Person : Entity
     {
         public struct SGender
         {
@@ -10,8 +11,6 @@ namespace api.Models
             public const string FEMALE = "female";
         }
 
-        [Column("id")]
-        public long Id { get; set; }
         [Column("name")]
         public string Name { get; set; }
         [Column("age")]

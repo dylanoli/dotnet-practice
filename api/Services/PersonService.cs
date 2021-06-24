@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 using api.Models;
-using api.Repositories;
+using api.Repositories.Core;
 
 namespace api.Services
 {
     public class PersonService : IPersonService
     {
-        private PersonRepository _personRepository;
-        public PersonService(PersonRepository personRepository)
+        private IRepository<Person> _personRepository;
+        public PersonService(IRepository<Person> personRepository)
         {
             _personRepository = personRepository;
         }

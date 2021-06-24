@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 using api.Models;
-using api.Repositories;
+using api.Repositories.Core;
 
 namespace api.Services
 {
     public class BookService : IBookService
     {
-        private BookRepository _bookRepository;
-        public BookService(BookRepository bookRepository)
+        private IRepository<Book> _bookRepository;
+        public BookService(IRepository<Book> bookRepository)
         {
             _bookRepository = bookRepository;
         }

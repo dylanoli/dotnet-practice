@@ -1,13 +1,12 @@
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
+using api.Models.Core;
 
 namespace api.Models
 {
     [Table("book")]
-    public class Book
+    public class Book : Entity
     {
-        [Column("id")]
-        public int Id { get; set; }
         [Column("name")]
         public string Name { get; set; }
         [Column("lauch_date")]
