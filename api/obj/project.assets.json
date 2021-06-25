@@ -11,9 +11,6 @@
           "lib/netstandard2.0/Evolve.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.7": {
-        "type": "package"
-      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -1169,21 +1166,6 @@
         "evolve.nuspec",
         "lib/netstandard2.0/Evolve.dll",
         "lib/netstandard2.0/Evolve.pdb"
-      ]
-    },
-    "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.7": {
-      "sha512": "80zYklKE6CZZswm5zjCUNbDx2Pavt45qfmVWLY1Heoe7GiJsPGGs9odgmsUFZ75bq4D6F4ZwK0LOam1TGUlHCg==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.authentication.jwtbearer/5.0.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
-        "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
-        "microsoft.aspnetcore.authentication.jwtbearer.5.0.7.nupkg.sha512",
-        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
     "Microsoft.CSharp/4.0.1": {
@@ -4347,7 +4329,6 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Evolve >= 3.0.0",
-      "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.7",
       "Npgsql >= 5.0.7",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 5.0.7",
       "Serilog >= 2.10.0",
@@ -4379,6 +4360,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -4390,14 +4372,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Evolve": {
             "target": "Package",
             "version": "[3.0.0, )"
-          },
-          "Microsoft.AspNetCore.Authentication.JwtBearer": {
-            "target": "Package",
-            "version": "[5.0.7, )"
           },
           "Npgsql": {
             "target": "Package",
@@ -4434,6 +4413,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.16, 3.1.16]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4442,19 +4427,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "O pacote Microsoft.AspNetCore.Authentication.JwtBearer 5.0.7 não é compatível com netcoreapp3.1 (.NETCoreApp,Version=v3.1). O pacote Microsoft.AspNetCore.Authentication.JwtBearer 5.0.7 dá suporte a: net5.0 (.NETCoreApp,Version=v5.0)",
-      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }

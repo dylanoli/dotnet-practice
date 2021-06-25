@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oV0keJbNmQdGkwr9GecMpZcLx2TAAsfCq2PVBwdpCiUUq2RVcBf2PJKFd65VgP7hMTZlgkEft3yJb8vIMSe3vw==",
-  "success": false,
+  "dgSpecHash": "zCW3x3yhJlFHncHlDLxEXljcKxZWSXP7b5qCnKbnUweIHC+4Nb4kIk8gOb2ZbpAGVvTABHQDA+2n+h23sVgOYg==",
+  "success": true,
   "projectFilePath": "D:\\Git\\dotnet-practice\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dylan\\.nuget\\packages\\evolve\\3.0.0\\evolve.3.0.0.nupkg.sha512",
-    "C:\\Users\\dylan\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.7\\microsoft.aspnetcore.authentication.jwtbearer.5.0.7.nupkg.sha512",
     "C:\\Users\\dylan\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\dylan\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512",
     "C:\\Users\\dylan\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.7\\microsoft.entityframeworkcore.5.0.7.nupkg.sha512",
@@ -87,17 +86,8 @@
     "C:\\Users\\dylan\\.nuget\\packages\\system.threading.tasks.extensions\\4.0.0\\system.threading.tasks.extensions.4.0.0.nupkg.sha512",
     "C:\\Users\\dylan\\.nuget\\packages\\system.threading.timer\\4.0.1\\system.threading.timer.4.0.1.nupkg.sha512",
     "C:\\Users\\dylan\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
-    "C:\\Users\\dylan\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
+    "C:\\Users\\dylan\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
+    "C:\\Users\\dylan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.16\\microsoft.netcore.app.host.win-x64.3.1.16.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "O pacote Microsoft.AspNetCore.Authentication.JwtBearer 5.0.7 não é compatível com netcoreapp3.1 (.NETCoreApp,Version=v3.1). O pacote Microsoft.AspNetCore.Authentication.JwtBearer 5.0.7 dá suporte a: net5.0 (.NETCoreApp,Version=v5.0)",
-      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }

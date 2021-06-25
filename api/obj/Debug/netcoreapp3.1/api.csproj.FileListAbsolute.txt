@@ -1,13 +1,11 @@
 D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\appsettings.json
-D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\api.exe
 d:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\api.deps.json
 d:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\api.runtimeconfig.json
 d:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\api.runtimeconfig.dev.json
 D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\api.dll
 D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\api.pdb
-D:\Git\dotnet-practice\api\obj\Debug\netcoreapp3.1\api.csprojAssemblyReference.cache
 D:\Git\dotnet-practice\api\obj\Debug\netcoreapp3.1\api.AssemblyInfoInputs.cache
 D:\Git\dotnet-practice\api\obj\Debug\netcoreapp3.1\api.AssemblyInfo.cs
 D:\Git\dotnet-practice\api\obj\Debug\netcoreapp3.1\api.csproj.CoreCompileInputs.cache
@@ -56,3 +54,5 @@ D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagge
 D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Git\dotnet-practice\api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Git\dotnet-practice\api\obj\Debug\netcoreapp3.1\api.MvcApplicationPartsAssemblyInfo.cs
+D:\Git\dotnet-practice\api\obj\Debug\netcoreapp3.1\api.csproj.AssemblyReference.cache
+D:\Git\dotnet-practice\api\obj\Debug\netcoreapp3.1\scopedcss\bundle\api.styles.css
