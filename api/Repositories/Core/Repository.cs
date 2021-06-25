@@ -4,7 +4,7 @@ using api.Models.Core;
 using System.Linq;
 namespace api.Repositories.Core
 {
-    public class Repository<T> : IRepository<T> where T : Entity
+    public abstract class Repository<T> : IRepository<T> where T : Entity
     {
         private SqlContext _context;
         private DbSet<T> _dataset;
