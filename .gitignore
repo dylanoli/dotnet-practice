@@ -18,7 +18,7 @@ nupkg/
 *.sln.docstates
 
 # Build results
- api/bin/Debug/
+api/bin/Debug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
